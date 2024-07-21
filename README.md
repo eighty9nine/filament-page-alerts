@@ -5,7 +5,9 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/eightynine/filament-page-alerts.svg?style=flat-square)](https://packagist.org/packages/eightynine/filament-page-alerts)
 [![Total Downloads](https://img.shields.io/packagist/dt/eightynine/filament-page-alerts.svg?style=flat-square)](https://packagist.org/packages/eightynine/filament-page-alerts)
 
-This package shows alerts in any page, not just the dashboard, currently the adds appear on top of the page. Under the hood it uses the render hooks and the render hook used is `    PanelsRenderHook::PAGE_START`.
+This package shows alerts in any page, not just the dashboard, currently the adds appear on top of the page.
+
+![Package screenshot](resources/img/page-alerts.png)
 
 ## Installation
 
