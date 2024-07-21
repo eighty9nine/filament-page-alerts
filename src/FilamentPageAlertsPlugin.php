@@ -10,6 +10,8 @@ use Illuminate\View\View;
 
 class FilamentPageAlertsPlugin implements Plugin
 {
+    use Concerns\HasPluginConfiguration;
+
     public function getId(): string
     {
         return 'filament-page-alerts';
@@ -21,10 +23,12 @@ class FilamentPageAlertsPlugin implements Plugin
     }
 
     public function boot(Panel $panel): void
-    {
+    {        
         FilamentView::registerRenderHook(
-            PanelsRenderHook::PAGE_START,
-            fn (): View => view('page-alerts::components.alerts')
+            config('page-alerts.render_hook'),
+            fn (): View => view('page-alerts::components.alerts', [
+                'showAlertsBorder' => $this->showAlertsBorder,
+            ])
         );
     }
 

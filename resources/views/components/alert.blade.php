@@ -35,7 +35,7 @@
 
 @isset ($alert)
 <div x-data="{showAlert: true}" x-show="showAlert" >
-    <div x-show="showAlert" class="{{$colorClasses}} border-l-4  p-4 flex shadow-sm bg-white" role="alert">
+    <div x-show="showAlert" class="{{$colorClasses}} border-l-4  p-4 flex shadow-lg bg-white" role="alert">
         @if ($icon)
             <x-filament::icon :icon="$icon" class="max-h-14" color="{{$type}}">
             </x-filament::icon>
