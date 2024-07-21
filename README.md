@@ -5,7 +5,13 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/eightynine/filament-page-alerts.svg?style=flat-square)](https://packagist.org/packages/eightynine/filament-page-alerts)
 [![Total Downloads](https://img.shields.io/packagist/dt/eightynine/filament-page-alerts.svg?style=flat-square)](https://packagist.org/packages/eightynine/filament-page-alerts)
 
-This package shows alerts in any page, not just the dashboard, currently the adds appear on top of the page.
+
+## 🛠️ Be Part of the Journey
+
+Hi, I'm Eighty Nine. I created page alerts plugin to solve real problems I faced as a developer. Your sponsorship will allow me to dedicate more time to enhancing these tools and helping more people. [Become a sponsor](https://github.com/sponsors/eighty9nine) and join me in making a positive impact on the developer community.
+
+
+This package shows alerts in any page, not just the dashboard, currently the alerts appear on top of the page.
 
 ![Package screenshot](resources/img/page-alerts.png)
 
