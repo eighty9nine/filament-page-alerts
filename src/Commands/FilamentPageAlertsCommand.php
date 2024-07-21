@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace EightyNine\FilamentPageAlerts\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentPageAlertsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-page-alerts';
 
     public $description = 'My command';
 
