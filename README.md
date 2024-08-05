@@ -13,7 +13,7 @@ Hi, I'm Eighty Nine. I created page alerts plugin to solve real problems I faced
 
 This package shows alerts in any page, not just the dashboard, currently the alerts appear on top of the page.
 
-![Package screenshot](resources/img/page-alerts.png)
+![Package screenshot](https://raw.githubusercontent.com/eighty9nine/filament-page-alerts/3.x/resources/img/page-alerts.png)
 
 ## Installation
 
