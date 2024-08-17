@@ -10,6 +10,7 @@
 
 Hi, I'm Eighty Nine. I created page alerts plugin to solve real problems I faced as a developer. Your sponsorship will allow me to dedicate more time to enhancing these tools and helping more people. [Become a sponsor](https://github.com/sponsors/eighty9nine) and join me in making a positive impact on the developer community.
 
+## Introduction
 
 This package shows alerts in any page, not just the dashboard, currently the alerts appear on top of the page.
 
