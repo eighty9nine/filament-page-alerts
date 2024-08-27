@@ -81,7 +81,7 @@ You can use the `PageAlert` class to send alerts to your page!
                         ->title('This requires your attention')
                         ->body('Hey there, this is important')
                         ->warning()
-                        =>url('https://www.google.com', 'Google')
+                        ->url('https://www.google.com', 'Google')
                         ->send();
                     PageAlert::make()
                         ->title('You need to check this out')
